@@ -1,0 +1,9 @@
+export const CONFIG = {
+  PORT: process.env.PORT || 4000,
+  CLIENT_ORIGIN: process.env.CLIENT_ORIGIN || '*',
+  MAX_ROOM_MEMBERS: 10,
+  SKIP_THRESHOLD_PERCENT: 50,
+  CODE_LENGTH: 6,
+  SYNC_DRIFT_THRESHOLD_SECONDS: 1.5,
+};
+
